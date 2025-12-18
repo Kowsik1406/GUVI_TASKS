@@ -1,0 +1,6 @@
+This is for ec2 server & for eks try with helm installation method
+
+Install ubuntu server
+create all 3 files ( graphana,prometheus,node_exporter in it)
+check it's running at last add port 9100 in ( cd /etc/prometheus)
+( also we can add multiple job in prometheus)

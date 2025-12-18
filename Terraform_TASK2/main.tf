@@ -21,7 +21,7 @@ resource "aws_instance" "instance1" {
   connection {
     type        = "ssh"
     user        = "ec2-user"
-    private_key = file("C:/Users/kowsi/OneDrive/Documents/GUVI/Terraform/Terraform_TASK2/terraform_test1.pem")
+    private_key = file("C:/Users/kowsi/OneDrive/Documents/GUVI/Terraform/GUVI_TASKS/Terraform_TASK2/terraform_test1.pem")
     host        = self.public_ip
   }
 
@@ -50,7 +50,7 @@ resource "aws_instance" "instance2" {
   connection {
     type        = "ssh"
     user        = "ec2-user"
-    private_key = file("C:/Users/kowsi/OneDrive/Documents/GUVI/Terraform/Terraform_TASK2/terraform_test2.pem")
+    private_key = file("C:/Users/kowsi/OneDrive/Documents/GUVI/Terraform/GUVI_TASKS/Terraform_TASK2/terraform_test2.pem")
     host        = self.public_ip
   }
 
